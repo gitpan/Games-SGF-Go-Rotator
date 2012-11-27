@@ -1,5 +1,5 @@
 ARTISTIC.txt
-CHANGES
+CHANGELOG
 GPL2.txt
 lib/Games/SGF/Go/Rotator.pm
 Makefile.PL
@@ -17,4 +17,6 @@ t/01-AE-AB-AW.t
 t/AE-AB-AW-180.sgf
 t/AE-AB-AW-90.sgf
 t/AE-AB-AW.sgf
-META.yml                                 Module meta-data (added by MakeMaker)
+t/lib/Games/SGF/Go/Rotator/Test.pm
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

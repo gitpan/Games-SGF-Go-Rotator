@@ -1,22 +1,26 @@
---- #YAML:1.0
-name:               Games-SGF-Go-Rotator
-version:            1.2
-abstract:           ~
-author:  []
-license:            unknown
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+---
+abstract: unknown
+author:
+  - unknown
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Games::SGF::Go:    0.993
-    Games::SGF::Util:  0.993
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.50
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630'
+license: unknown
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Games-SGF-Go-Rotator
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Games::SGF::Go: 0.993
+  Games::SGF::Util: 0.993
+resources:
+  bugtracker: https://github.com/DrHyde/perl-modules-Games-SGF-Go-Rotator/issues
+  repository: https://github.com/DrHyde/perl-modules-Games-SGF-Go-Rotator
+version: 1.21
